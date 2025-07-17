@@ -1,0 +1,368 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "16d719cd-6683-4e93-885f-09093db4ed1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=1\n",
+    "b=str(a)\n",
+    "print(type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "af39004e-8cf4-4415-b69a-715c7a6f789d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#arthematic operators"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "da0997e5-703f-46b8-a4da-09d8c21e926b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=a+b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "764b2a14-4729-4838-a4ed-d8eba03bfdbe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your no. 2\n",
+      "enter your no. 2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter your no.\"))\n",
+    "b=int(input(\"enter your no.\"))\n",
+    "c=a+b \n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4b891a01-bb2e-4951-93cc-e0c5060babeb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#comparison operator "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2df9e20e-5bd1-4a26-8868-0564c0f9dc47",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "<,>,<=,<=,!="
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "cd493774-f629-44e7-b38b-fc35e74f8c09",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=12\n",
+    "b=15\n",
+    "print(a>b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "259bcaf6-387c-4e79-b1be-06d99ba7bb21",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=12\n",
+    "b=15\n",
+    "print(a==b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "be307c7d-72e9-41fe-a7c5-120adc909984",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your no. 20\n",
+      "enter your no. 30\n",
+      "enter your no. 40\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "false\n",
+      "true \n"
+     ]
+    }
+   ],
+   "source": [
+    "x=int(input(\"enter your no.\"))\n",
+    "y=int(input(\"enter your no.\"))\n",
+    "z= int(input(\"enter your no.\"))\n",
+    "  \n",
+    "sum = x+y+z\n",
+    "\n",
+    "average= sum/3\n",
+    "if(average >50):\n",
+    "    print(\"true\" )\n",
+    "else:\n",
+    "    print(\"false\")\n",
+    "if(sum%5==0):\n",
+    "    print(\"true \")\n",
+    "else :\n",
+    "    print(\"false\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "04446df2-1e2b-45ab-bd4b-39bcc74a59f5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4763de4d-eb9a-430d-8d44-c0ce70f6f94c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8dcb4920-1c98-495b-8044-060ed80230ab",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3cb0af98-ad1c-4314-8a08-8168be3d7591",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0375a455-bc7d-4fc1-93b1-3fd5531c6cbb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "52c3fb00-3be7-406a-b5b2-32c2d658fee6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "391b19da-e0e2-44dd-84c5-52a72a379a8a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "befa6776-68ac-44f5-a581-8b18f229d824",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.75\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=a/b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ad662899-473a-4e1a-a672-ec9ceac7e22a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=a//b\n",
+    "a=print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "aff4ea01-71bb-4e48-8b7a-96963ef03ea4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "12\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=a*b\n",
+    "a=print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "86115ee6-5743-4508-817f-5722fc82850a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-1\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=a-b\n",
+    "a=print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "ee46d35a-fede-4491-9e9f-65b4481d384d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "81\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=a**b\n",
+    "a=print(c)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
